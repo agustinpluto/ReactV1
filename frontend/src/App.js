@@ -17,11 +17,12 @@ function App() {
       <Header> </Header>
       <Nav> </Nav>
       <Routes>
-        <Route path='/home.html' element={<HomePage/>} />
-        <Route path='/nosotros.html' element={<NosotrosPage/>} />
-        <Route path='/novedades.html' element={<NovedadesPage/>} />
-        <Route path='/contacto.html' element={<ContactoPage/>} />
-        <Route path='/tutoriales.html' element={<TutorialesPage/>} />
+        <Route path='/' element={<HomePage/>} />
+        <Route path='/home' element={<HomePage/>} />
+        <Route path='/nosotros' element={<NosotrosPage/>} />
+        <Route path='/novedades' element={<NovedadesPage/>} />
+        <Route path='/contacto' element={<ContactoPage/>} />
+        <Route path='/tutoriales' element={<TutorialesPage/>} />
       </Routes>
       <Footer> </Footer>
       </Router>
