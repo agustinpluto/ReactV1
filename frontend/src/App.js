@@ -8,6 +8,7 @@ import HomePage from "./pages/Home";
 import NovedadesPage from "./pages/Novedades";
 import NosotrosPage from "./pages/Nosotros";
 import ContactoPage from "./pages/Contacto";
+import TutorialesPage from "./pages/Tutoriales";
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <Header> </Header>
       <Nav> </Nav>
       <Routes>
-        <Route path='/welcome' element={<HomePage/>} />
-        <Route path='/nosotros' element={<NosotrosPage/>} />
-        <Route path='/novedades' element={<NovedadesPage/>} />
-        <Route path='/contacto' element={<ContactoPage/>} />
+        <Route path='/home.html' element={<HomePage/>} />
+        <Route path='/nosotros.html' element={<NosotrosPage/>} />
+        <Route path='/novedades.html' element={<NovedadesPage/>} />
+        <Route path='/contacto.html' element={<ContactoPage/>} />
+        <Route path='/tutoriales.html' element={<TutorialesPage/>} />
       </Routes>
       <Footer> </Footer>
       </Router>

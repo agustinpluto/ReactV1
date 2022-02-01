@@ -2,22 +2,22 @@ const ContactoPage = (props) => {
     return (
         <main className="holder">
             <div className="columna contacto">
-                <h2>Complete el siguiente formularioo: </h2>
+                <h2>Complete el siguiente formulario: </h2>
                 <form action="" method="" className="formulario">
                     <p>
-                        <label>Nombre</label>
+                        <label>Nombre </label>
                         <input type="text" name="nombre"/>
                     </p>
                     <p>
-                        <label>E-Mail</label>
+                        <label>E-Mail </label>
                         <input type="text" name="email"/>
                     </p>
                     <p>
-                        <label>Telefono</label>
+                        <label>Telefono </label>
                         <input type="text" name="telefono"/>
                     </p>
                     <p>
-                        <label>Comentario</label>
+                        <label>Comentario </label>
                         <input type="text" name="comentario"/>
                     </p>
                     <p className="centrar"><input type="submit" value="Enviar"/></p>
