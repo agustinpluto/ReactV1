@@ -1,10 +1,12 @@
+import './../styles/components/pages/Contacto.css'
+
 const ContactoPage = (props) => {
     return (
         <main className="holder">
             <div className="columna contacto">
                 <h2>Complete el siguiente formulario: </h2>
                 <form action="" method="" className="formulario">
-                    <p>
+                    <p className="primera">
                         <label>Nombre </label>
                         <input type="text" name="nombre"/>
                     </p>
@@ -29,8 +31,8 @@ const ContactoPage = (props) => {
                 <ul>
                     <li>Telefono: 1234314213</li>
                     <li>Email: mail@mail.com</li>
-                    <li>Facebook: </li>
-                    <li>Twitter: </li>
+                    <li>Facebook: un facebook</li>
+                    <li>Twitter: un twitter</li>
                 </ul>
             </div>
         </main>

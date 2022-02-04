@@ -9,6 +9,7 @@ import NovedadesPage from "./pages/Novedades";
 import NosotrosPage from "./pages/Nosotros";
 import ContactoPage from "./pages/Contacto";
 import TutorialesPage from "./pages/Tutoriales";
+import './App.css'
 
 function App() {
   return (
